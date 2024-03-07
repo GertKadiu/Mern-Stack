@@ -1,0 +1,18 @@
+.background {
+    width: 524px;
+    height: 84px;
+    background-color: #1E1D23;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+  }
+
+
+@media (max-width: 768px) {
+    .background {
+      width: 100%; 
+    }
+  }
+  

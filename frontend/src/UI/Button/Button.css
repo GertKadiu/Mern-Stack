@@ -1,0 +1,83 @@
+.creteBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #FFFFFF;
+  background-color: transparent;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 6px 0px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  width: 312px;
+
+}
+
+.signOut{
+  color: #FFFFFF;
+  border: none;
+  background-color: #EF4444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.delete{
+  color: #FFFFFF;
+  border: none;
+  background-color: #EF4444;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0 10px 0
+}
+
+.editBtn {
+  background-color: #026cdf;
+  color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 13px 29px 13px 29px;
+  border: none;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .editBtn {
+    padding: 6px;
+    margin-left: 10px;
+  }
+}
+
+
+.saveBtn {
+  background-color: #026CDF;
+  width: 312px;
+  border: none;
+  height: 38px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.cancelBtn {
+  background-color: transparent;
+  width: 312px;
+  border: 1px solid #FFFFFF;
+  height: 38px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+
+.disabled {
+  background-color: #666666;
+  width: 312px;
+  border: none;
+  height: 38px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-bottom: 32px;
+}

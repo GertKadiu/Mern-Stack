@@ -1,0 +1,144 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1E1D23;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  color: #FFFFFF;
+}
+
+
+.cancel {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+
+.delete {
+  padding: 5px 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .modal {
+    width: 40%;
+    /* Adjust width for smaller screens */
+  }
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 5000;
+  display: flex;
+}
+
+
+.modal2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1E1D23;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  z-index: 5001;
+  color: #FFFFFF;
+  overflow-y: auto;
+  max-height: 200px;
+
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+
+}
+
+.modal2::-webkit-scrollbar {
+  display: none;
+}
+
+.er {
+  border: 0.5px solid #026CDF;
+  margin-bottom: 20px;
+}
+
+.cancel {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.likes {
+  margin: 0;
+  margin-bottom:5px;
+  font-size: 22px;
+  color: #FFFFFF;
+}
+
+.header {
+  display: "flex";
+  flex-direction: row;
+  justify-content: "space-between";
+  align-items: "center";
+}
+
+.delete {
+  padding: 5px 10px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .modal {
+    width: 40%;
+    /* Adjust width for smaller screens */
+  }
+
+  .modal2 {
+    width: 70%;
+  }
+}

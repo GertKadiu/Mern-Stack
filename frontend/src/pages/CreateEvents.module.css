@@ -1,0 +1,139 @@
+/* Base styles for larger screens */
+.img {
+  display: block;
+  object-fit: cover;
+  width: 648px;
+  height: 137px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.place {
+  margin-top: 20px;
+  margin: 0 auto;
+  width: 648px;
+  height: 137px;
+}
+
+.Icon {
+  width: 42px;
+  height: 42px;
+  background-color: #1e1d23;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contanier {
+  width: 900px;
+  margin: auto;
+  color: white;
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contanier2 {
+  background-color: #1e1d23;
+  height: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  width: 648px;
+  margin: auto;
+  left: 0;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 648px;
+  margin: auto;
+  left: 0;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.selecter {
+  width: 648px;
+  margin-bottom: 16px;
+}
+
+.EventLocation {
+  width: 312px;
+}
+
+.Creator {
+  width: 312px;
+  margin-bottom: 16px;
+}
+
+.error{
+  color: #EF4444;
+  margin: 0;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+/* Media Query for screens up to 768px wide (mobile devices) */
+@media (max-width: 768px) {
+  .img {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .EventLocation {
+    margin-bottom: 16px;
+  }
+
+  .Creator {
+    margin-bottom: 16px;
+  }
+  .place {
+    width: 100%;
+    height: auto;
+  }
+
+  .contanier {
+    width: 340px;
+    max-width: none;
+  }
+
+  .contanier2 {
+    height: 100%;
+  }
+
+  .inputs {
+    width: 100%;
+    max-width: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    width: 100%;
+    max-width: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input:last-child {
+    margin-bottom: 16px;
+  }
+  .selecter {
+    width: 312px;
+    margin-bottom: 16px;
+  }
+}

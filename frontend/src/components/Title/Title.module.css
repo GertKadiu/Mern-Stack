@@ -1,0 +1,33 @@
+
+.contanier {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  width:100%;
+  margin: auto;
+  left: 0;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+
+
+@media (max-width: 768px) {
+.Icon{
+    width: 32px;
+  height: 32px;
+    align-items: center;
+  justify-content: center;
+}
+.contanier{
+    width: 340px;
+}
+.name{
+    font-size: 16px;
+}
+}

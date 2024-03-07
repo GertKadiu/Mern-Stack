@@ -1,0 +1,48 @@
+.container {
+    padding: 1.5rem;
+    max-width: 32rem;
+    margin: auto;
+    color: white;
+  }
+  
+  .title {
+    font-size: 1.875rem;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1.75rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input {
+    border: 1px solid #E5E7EB;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+  }
+  
+  .button {
+    background-color: #026CDF;
+    border: none;
+    color: #FFFFFF;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    opacity: 0.95;
+  }
+  
+  .button:disabled {
+    opacity: 0.8;
+  }
+  
+  .link {
+    color: #3B82F6;
+  }
+  

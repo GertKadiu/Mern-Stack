@@ -1,0 +1,109 @@
+.contanier {
+  width: 1064px;
+  margin: auto;
+  color: #FFFFFF;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.background {
+  width: 524px;
+  height: 84px;
+  background-color: #1E1D23;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.wrapProfile {
+  display: grid;
+  grid-template-columns: repeat(2, 524px);
+  gap: 16px;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  margin-right: 16px;
+  margin-left: 20px;
+}
+
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 16px;
+  color: #FFFFFF;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+.email {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.navbar {
+  margin: auto;
+  left: 0;
+  width: 1064px;
+}
+
+
+
+@media (max-width: 768px) {
+  .contanier {
+    width: 340px;
+  }
+
+  .navbar {
+    width: 340px;
+  }
+
+  .wrapProfile {
+    grid-template-columns: repeat(1, 340px);
+  }
+
+  .background {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contanier {
+    width: 690px;
+
+  }
+  .navbar {
+    width: 690px;
+  }
+  .wrapProfile {
+    grid-template-columns: repeat(2, 340px);
+  }
+
+  .background {
+    width: 100%;
+  }
+
+}
